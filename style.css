@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #38625f;
+}
+.header {
+  background-color: #cee9ef;
+  background-position: center;
+  max-height: 386px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-logo {
+  margin-top: 46px;
+  margin-left: 56px;
+  display: block;
+}
+
+.header-meny {
+  display: flex;
+  margin-top: 49px;
+  margin-left: 89px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Open Sans";
+  font-size: 24px;
+  gap: 41px;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
+}
+
+.header-icons {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 70px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Open Sans";
+
+  gap: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+.all_fruits {
+  display: flex;
+}
+
+.fruits {
+  margin-top: 33px;
+  margin-left: 1px;
+}
+
+.charry {
+  margin-top: 116px;
+  margin-left: -99px;
+}
+
+.main-block {
+  background-color: white;
+  max-width: 1000px;
+  margin: 386px auto;
+}
+
+h1 {
+  font-family: Neucha;
+  font-weight: 500;
+  font-size: 80px;
+  margin: -329px 0 80px 167px;
+}
+.product {
+  display: flex;
+}
+.product_description {
+  width: 342px;
+  height: 516px;
+  padding: 0 46px 0 130px;
+}
+h2 {
+  font-family: Neucha;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 40px;
+}
+p {
+  font-family: Ysabeau Infant;
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 6px;
+  line-height: 29px;
+}
+.quality {
+  padding-top: 61px;
+}
+
+button {
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #38625f;
+  padding: 10px 22px;
+  margin-top: 67px;
+  cursor: pointer;
+  left: 129px;
+  border-radius: 10px;
+  font-family: Ysabeau Infant;
+}
+
+.product_photos {
+  margin-top: -20px;
+  margin-left: -3px;
+}
+
+/* .natasha {
+  opacity: 0.5;
+  position: absolute;
+  z-index: 10;
+} */
+
+.footer {
+  background-color: white;
+  max-width: 1000px;
+  margin: 386px auto;
+
+  margin-top: -290px;
+  margin-bottom: 50px;
+}
+.name {
+  font-size: 14px;
+  margin-left: 57px;
+}
+.phone-and-societies {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 57px;
+
+  a {
+    text-decoration: none;
+  }
+}
+.phone {
+  font-family: Nutino;
+  font-weight: 500;
+}
+
+.phone-nomber {
+  font-size: 24px;
+}
+
+.about_nomber {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.societies {
+  display: flex;
+  gap: 6px;
+  margin-left: 430px;
+  margin-top: 25px;
+}
+
+.societies li {
+  margin-right: 1px;
+}
+
+.societies a img {
+  display: block;
+  margin-top: 0px;
+  justify-content: space-between;
+  font-family: "Open Sans";
+  gap: 6px;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
